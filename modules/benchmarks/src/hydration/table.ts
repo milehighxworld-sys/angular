@@ -54,12 +54,35 @@ export class TableComponent {
 }
 
 export function setupTransferState(cols: string, rows: string) {
+  const parsedCols = Number.parseInt(cols, 10);
+  const parsedRows = Number.parseInt(rows, 10);
+  const safeCols = Number.isFinite(parsedCols) ? Math.max(0, parsedCols) : 40;
+  const safeRows = Number.isFinite(parsedRows) ? Math.max(0, parsedRows) : 200;
+
   const script = document.createElement('script');
   script.id = 'ng-state';
   script.type = 'application/json';
   // This script contains hydration annotation for the `TableComponent` component.
   // Note: if you change the `TableComponent` template, make sure to update this
   // annotation as well.
-  script.textContent = `{"__nghData__":[{"t":{"3":"t0"},"c":{"3":[{"i":"t0","r":1,"t":{"2":"t1"},"c":{"2":[{"i":"t1","r":1,"x":${cols}}]},"x":${rows}}]}}]}`;
+  const hydrationState = {
+    __nghData__: [
+      {
+        t: {'3': 't0'},
+        c: {
+          '3': [
+            {
+              i: 't0',
+              r: 1,
+              t: {'2': 't1'},
+              c: {'2': [{i: 't1', r: 1, x: safeCols}]},
+              x: safeRows,
+            },
+          ],
+        },
+      },
+    ],
+  };
+  script.textContent = JSON.stringify(hydrationState);
   document.body.insertBefore(script, document.body.firstChild);
 }

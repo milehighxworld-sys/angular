@@ -18,7 +18,7 @@ importers:
     dependencies:
       '@angular-devkit/build-angular':
         specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(d66c123783f20c5141e56d3440c6bcaa)
+        version: 22.0.0-next.5(1212a088c7d073cb6316c1b5e4fc978e)
       '@angular-devkit/core':
         specifier: 22.0.0-next.5
         version: 22.0.0-next.5(chokidar@5.0.0)
@@ -36,7 +36,7 @@ importers:
         version: link:packages/benchpress
       '@angular/build':
         specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(6a0f38732b4718577f87ace718f78d54)
+        version: 22.0.0-next.5(61364a13d0626aec0f867fd56cfdf718)
       '@angular/cdk':
         specifier: 22.0.0-next.4
         version: 22.0.0-next.4(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-browser@packages+platform-browser)(rxjs@7.8.2)
@@ -86,8 +86,8 @@ importers:
         specifier: workspace:*
         version: link:packages/service-worker
       '@angular/ssr':
-        specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
+        specifier: 22.0.0-next.7
+        version: 22.0.0-next.7(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
       '@angular/upgrade':
         specifier: 'workspace: *'
         version: link:packages/upgrade
@@ -472,7 +472,7 @@ importers:
         version: 22.0.0-next.4(@angular/cdk@22.0.0-next.4(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-browser@packages+platform-browser)(rxjs@7.8.2))(@angular/core@packages+core)
       '@angular/build':
         specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(ae44b17c709389d40998b00bdb2e2bb0)
+        version: 22.0.0-next.5(6c12de60d22f639c2ecf43c01f559abc)
       '@angular/cdk':
         specifier: 22.0.0-next.4
         version: 22.0.0-next.4(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-browser@packages+platform-browser)(rxjs@7.8.2)
@@ -510,8 +510,8 @@ importers:
         specifier: workspace:*
         version: link:../packages/router
       '@angular/ssr':
-        specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
+        specifier: 22.0.0-next.7
+        version: 22.0.0-next.7(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
       '@codemirror/autocomplete':
         specifier: 6.20.1
         version: 6.20.1
@@ -681,8 +681,8 @@ importers:
         specifier: 2.2.0
         version: 2.2.0(jasmine-core@6.1.0)(karma-jasmine@5.1.0(karma@6.4.4(bufferutil@4.1.0)))(karma@6.4.4(bufferutil@4.1.0))
       marked:
-        specifier: 18.0.0
-        version: 18.0.0
+        specifier: 18.0.2
+        version: 18.0.2
       mermaid:
         specifier: 11.14.0
         version: 11.14.0
@@ -784,8 +784,8 @@ importers:
         specifier: ~29.0.0
         version: 29.0.1
       marked:
-        specifier: ~18.0.0
-        version: 18.0.0
+        specifier: ~18.0.2
+        version: 18.0.2
       mermaid:
         specifier: ^11.0.0
         version: 11.13.0
@@ -835,8 +835,8 @@ importers:
         specifier: workspace:*
         version: link:../packages/router
       '@angular/ssr':
-        specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
+        specifier: 22.0.0-next.7
+        version: 22.0.0-next.7(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2
@@ -846,7 +846,7 @@ importers:
     devDependencies:
       '@angular/build':
         specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(7fe08166d60bd2be67c03805974c0904)
+        version: 22.0.0-next.5(e42090129743f4fb7e6672749118c773)
       '@angular/cli':
         specifier: 22.0.0-next.5
         version: 22.0.0-next.5(@types/node@24.12.2)(chokidar@5.0.0)
@@ -918,7 +918,7 @@ importers:
         version: link:../packages/benchpress
       '@angular/build':
         specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(ae44b17c709389d40998b00bdb2e2bb0)
+        version: 22.0.0-next.5(6c12de60d22f639c2ecf43c01f559abc)
       '@angular/common':
         specifier: workspace:*
         version: link:../packages/common
@@ -1089,7 +1089,7 @@ importers:
         version: link:../../../animations
       '@angular/build':
         specifier: 22.0.0-next.5
-        version: 22.0.0-next.5(ae44b17c709389d40998b00bdb2e2bb0)
+        version: 22.0.0-next.5(6c12de60d22f639c2ecf43c01f559abc)
       '@angular/common':
         specifier: workspace:*
         version: link:../../../common
@@ -1782,8 +1782,8 @@ packages:
     version: 0.0.0-221c985c8568930e9d88f0f2783229ac91ef9345
     hasBin: true
 
-  '@angular/ssr@22.0.0-next.5':
-    resolution: {integrity: sha512-tUB3dsInY/TZIz0S/jURDSRR9nuf4ALvCrkG/vSRUDDtN8flZpFA0XxqVB4joyyTgNbdrA1XFpjM+BtVf4OqVw==}
+  '@angular/ssr@22.0.0-next.7':
+    resolution: {integrity: sha512-dxvkRK+ciI/V+DezHNpPsJmkLTXxrBqLUZAQZTplb9eS1t4HKmCJgDTXHfMjVEgG5nzCcC85K6+bvKWHEs1Keg==}
     peerDependencies:
       '@angular/common': ^22.0.0-next.0
       '@angular/core': ^22.0.0-next.0
@@ -5825,6 +5825,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@unrs/resolver-binding-android-arm-eabi@1.11.1':
     resolution: {integrity: sha512-ppLRUgHVaGRWUx0R0Ut06Mjo9gBaBkg3v/8AxusGLhsIotbBLuRk51rAzqLC8gq6NyyAojEXglNjzf6R948DNw==}
@@ -6098,6 +6099,7 @@ packages:
   '@xmldom/xmldom@0.8.12':
     resolution: {integrity: sha512-9k/gHF6n/pAi/9tqr3m3aqkuiNosYTurLLUtc7xQ9sxB/wm7WPygCv8GYa6mS0fLJEHhqMC1ATYhz++U/lRHqg==}
     engines: {node: '>=10.0.0'}
+    deprecated: this version has critical issues, please update to the latest version
 
   '@xterm/addon-fit@0.11.0':
     resolution: {integrity: sha512-jYcgT6xtVYhnhgxh3QgYDnnNMYTcf8ElbxxFzX0IZo+vabQqSPAjC3c1wJrKB5E19VwQei89QCiZZP86DCPF7g==}
@@ -10225,8 +10227,8 @@ packages:
     engines: {node: '>= 20'}
     hasBin: true
 
-  marked@18.0.0:
-    resolution: {integrity: sha512-2e7Qiv/HJSXj8rDEpgTvGKsP8yYtI9xXHKDnrftrmnrJPaFNM7VRb2YCzWaX4BP1iCJ/XPduzDJZMFoqTCcIMA==}
+  marked@18.0.2:
+    resolution: {integrity: sha512-NsmlUYBS/Zg57rgDWMYdnre6OTj4e+qq/JS2ot3KrYLSoHLw+sDu0Nm1ZGpRgYAq6c+b1ekaY5NzVchMCQnzcg==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -13013,15 +13015,17 @@ packages:
 
   uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   v8-compile-cache-lib@3.0.1:
@@ -13921,13 +13925,13 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@angular-devkit/build-angular@22.0.0-next.5(d66c123783f20c5141e56d3440c6bcaa)':
+  '@angular-devkit/build-angular@22.0.0-next.5(1212a088c7d073cb6316c1b5e4fc978e)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2200.0-next.5(chokidar@5.0.0)
       '@angular-devkit/build-webpack': 0.2200.0-next.5(chokidar@5.0.0)(webpack-dev-server@5.2.3(bufferutil@4.1.0)(tslib@2.8.1)(webpack@5.105.4(esbuild@0.27.3)))(webpack@5.105.4(esbuild@0.27.3))
       '@angular-devkit/core': 22.0.0-next.5(chokidar@5.0.0)
-      '@angular/build': 22.0.0-next.5(4b4edaa7b1233b0ef18948f573e67811)
+      '@angular/build': 22.0.0-next.5(322539f6bd7006660e3a3268ccaf0ac4)
       '@angular/compiler-cli': link:packages/compiler-cli
       '@babel/core': 7.29.0
       '@babel/generator': 7.29.1
@@ -13984,7 +13988,7 @@ snapshots:
       '@angular/platform-browser': link:packages/platform-browser
       '@angular/platform-server': link:packages/platform-server
       '@angular/service-worker': link:packages/service-worker
-      '@angular/ssr': 22.0.0-next.5(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
+      '@angular/ssr': 22.0.0-next.7(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
       esbuild: 0.27.3
       karma: 6.4.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       ng-packagr: 22.0.0-next.1(@angular/compiler-cli@packages+compiler-cli)(tailwindcss@3.4.19(tsx@4.21.0)(yaml@2.8.3))(tslib@2.8.1)(typescript@6.0.2)
@@ -14050,7 +14054,7 @@ snapshots:
       '@angular/core': link:packages/core
       tslib: 2.8.1
 
-  '@angular/build@22.0.0-next.5(4b4edaa7b1233b0ef18948f573e67811)':
+  '@angular/build@22.0.0-next.5(322539f6bd7006660e3a3268ccaf0ac4)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2200.0-next.5(chokidar@5.0.0)
@@ -14087,7 +14091,7 @@ snapshots:
       '@angular/platform-browser': link:packages/platform-browser
       '@angular/platform-server': link:packages/platform-server
       '@angular/service-worker': link:packages/service-worker
-      '@angular/ssr': 22.0.0-next.5(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
+      '@angular/ssr': 22.0.0-next.7(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
       istanbul-lib-instrument: 6.0.3
       karma: 6.4.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       less: 4.6.4
@@ -14111,7 +14115,7 @@ snapshots:
       - tsx
       - yaml
 
-  '@angular/build@22.0.0-next.5(6a0f38732b4718577f87ace718f78d54)':
+  '@angular/build@22.0.0-next.5(61364a13d0626aec0f867fd56cfdf718)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2200.0-next.5(chokidar@5.0.0)
@@ -14148,7 +14152,7 @@ snapshots:
       '@angular/platform-browser': link:packages/platform-browser
       '@angular/platform-server': link:packages/platform-server
       '@angular/service-worker': link:packages/service-worker
-      '@angular/ssr': 22.0.0-next.5(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
+      '@angular/ssr': 22.0.0-next.7(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
       istanbul-lib-instrument: 6.0.3
       karma: 6.4.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       less: 4.6.4
@@ -14172,7 +14176,7 @@ snapshots:
       - tsx
       - yaml
 
-  '@angular/build@22.0.0-next.5(7fe08166d60bd2be67c03805974c0904)':
+  '@angular/build@22.0.0-next.5(6c12de60d22f639c2ecf43c01f559abc)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2200.0-next.5(chokidar@5.0.0)
@@ -14209,7 +14213,7 @@ snapshots:
       '@angular/platform-browser': link:packages/platform-browser
       '@angular/platform-server': link:packages/platform-server
       '@angular/service-worker': link:packages/service-worker
-      '@angular/ssr': 22.0.0-next.5(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
+      '@angular/ssr': 22.0.0-next.7(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
       istanbul-lib-instrument: 6.0.3
       karma: 6.4.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       less: 4.6.4
@@ -14217,7 +14221,7 @@ snapshots:
       ng-packagr: 22.0.0-next.1(@angular/compiler-cli@packages+compiler-cli)(tailwindcss@3.4.19(tsx@4.21.0)(yaml@2.8.3))(tslib@2.8.1)(typescript@6.0.2)
       postcss: 8.5.9
       tailwindcss: 3.4.19(tsx@4.21.0)(yaml@2.8.3)
-      vitest: 4.1.2(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@opentelemetry/api@1.9.1)(@types/node@24.12.2)(esbuild@0.27.4)(jiti@2.6.1)(jsdom@29.0.1)(less@4.6.4)(sass@1.98.0)(terser@5.46.1)(tsx@4.21.0)(yaml@2.8.3)
+      vitest: 4.1.2(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@opentelemetry/api@1.9.1)(@types/node@24.12.2)(esbuild@0.27.4)(jiti@2.6.1)(jsdom@29.0.2)(less@4.6.4)(sass@1.98.0)(terser@5.46.1)(tsx@4.21.0)(yaml@2.8.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -14233,7 +14237,7 @@ snapshots:
       - tsx
       - yaml
 
-  '@angular/build@22.0.0-next.5(ae44b17c709389d40998b00bdb2e2bb0)':
+  '@angular/build@22.0.0-next.5(e42090129743f4fb7e6672749118c773)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2200.0-next.5(chokidar@5.0.0)
@@ -14270,7 +14274,7 @@ snapshots:
       '@angular/platform-browser': link:packages/platform-browser
       '@angular/platform-server': link:packages/platform-server
       '@angular/service-worker': link:packages/service-worker
-      '@angular/ssr': 22.0.0-next.5(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
+      '@angular/ssr': 22.0.0-next.7(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)
       istanbul-lib-instrument: 6.0.3
       karma: 6.4.4(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       less: 4.6.4
@@ -14278,7 +14282,7 @@ snapshots:
       ng-packagr: 22.0.0-next.1(@angular/compiler-cli@packages+compiler-cli)(tailwindcss@3.4.19(tsx@4.21.0)(yaml@2.8.3))(tslib@2.8.1)(typescript@6.0.2)
       postcss: 8.5.9
       tailwindcss: 3.4.19(tsx@4.21.0)(yaml@2.8.3)
-      vitest: 4.1.2(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@opentelemetry/api@1.9.1)(@types/node@24.12.2)(esbuild@0.27.4)(jiti@2.6.1)(jsdom@29.0.2)(less@4.6.4)(sass@1.98.0)(terser@5.46.1)(tsx@4.21.0)(yaml@2.8.3)
+      vitest: 4.1.2(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@opentelemetry/api@1.9.1)(@types/node@24.12.2)(esbuild@0.27.4)(jiti@2.6.1)(jsdom@29.0.1)(less@4.6.4)(sass@1.98.0)(terser@5.46.1)(tsx@4.21.0)(yaml@2.8.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -14435,7 +14439,7 @@ snapshots:
       - '@modelcontextprotocol/sdk'
       - '@react-native-async-storage/async-storage'
 
-  '@angular/ssr@22.0.0-next.5(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)':
+  '@angular/ssr@22.0.0-next.7(@angular/common@packages+common)(@angular/core@packages+core)(@angular/platform-server@packages+platform-server)(@angular/router@packages+router)':
     dependencies:
       '@angular/common': link:packages/common
       '@angular/core': link:packages/core
@@ -24339,7 +24343,7 @@ snapshots:
 
   marked@16.4.2: {}
 
-  marked@18.0.0: {}
+  marked@18.0.2: {}
 
   marky@1.3.0: {}
 
